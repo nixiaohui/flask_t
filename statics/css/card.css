@@ -3,7 +3,7 @@
     float: left;
     height: 115px;
     width: 85px;
-    background: url(../images/game_pai_ch1.png) -6px -5px;
+    background: url( {{ url_for('static', filename='images/game_pai_ch1.png') }}) -6px -5px;
     position: relative;
 }
 
